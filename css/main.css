@@ -1,0 +1,299 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #333745;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    height: 800px;
+}
+
+#portfolio {
+    height: 1450px;
+}
+
+#about {
+    background-color: #53b3cb;
+    height: 650px;
+    
+}
+
+#contact {
+    background-color: #114b5f;
+    height: 370px;
+}
+
+#nav {
+    background-color: #114b5f;
+}
+
+a {
+    color: #333745;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E9D82F;
+    cursor: pointer;
+}
+
+.view {
+    background-color: #53b3cb;
+    color: #ffffff;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+    
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+/***** HEADER *****/
+
+#nav ul {
+    list-style-type: none;
+    margin: 0 50px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav ul li {
+    float: right;
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#nav ul li a:hover {
+    background-color: #53b3cb;
+}
+
+.folio-nav {
+    height: 39.2px;
+}
+
+.home-header {
+    background: url(../img/hero-blue.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.home-header h1 {
+    color:  #E9D82F;
+    font-family: 'Quando', serif;
+    font-size: 50px;
+    padding-top: 300px;
+    text-align:center;
+}
+
+.home-header h2 {
+    color: #333745;
+    font-family: 'Roboto Slab', serif;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    text-align:center;
+}
+
+
+/***** HOME PAGE PORTFOLIO SECTION *****/
+
+#portfolio h3 {
+    color: #333745;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 32px;
+    padding-top: 20px;
+    text-align:center;
+}
+
+.card {
+    margin: 25px 0;
+    overflow: auto;
+}
+
+.img-hp {
+    border-color: #333745;
+    border-style: solid;
+    border-width: thin;
+    float: left;
+    height: 350px;
+    padding: 20px 30px;
+    width: 500px;
+}
+
+#port-1 .img-hp {
+    background-image: url("../img/rogue-pickings-mockupcreatedbyfreepik.png");
+    background-size: cover;
+}
+
+#port-2 .img-hp {
+    background-image: url("../img/recipe-collection-mockupcreatedbyfreepik.png");
+    background-size: cover;
+}
+
+#port-3 .img-hp {
+    background-image: url("../img/jubilee-austen-mockupcreatedbyfreepik.png");
+    background-size: cover;
+}
+
+.info {
+    background: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    height: 350px;
+    padding: 0px 50px;
+    width: 500px;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+}
+
+
+/***** ABOUT *****/
+
+#about h3 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 32px;
+    text-align:center;
+}
+
+#about p, ul li {
+    color: #ffffff;
+    margin: 0px;
+    text-align:justify;
+}
+    
+
+/***** CONTACT *****/
+
+#contact h3 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 32px;
+    text-align:center;
+}
+
+#contact h4 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#contact p {
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact ul img {
+    padding-left: 43px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+
+/***** FOOTER *****/
+
+footer p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0px;
+    padding-bottom: 8.4px;
+    text-align: center;
+}
+
+footer {
+    background-color:  #114b5f;
+}
+
+
+/***** PORTFOLIO GALLERY PAGE *****/
+
+#folio h1 {
+    color:  #E9D82F;
+    font-family: 'Quando', serif;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+#folio h1 span {
+    color:  #333745;
+}
+
+.folio-grid {
+    display: grid;
+    gap: 30px;
+    grid-auto-rows: minmax(450px, auto);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.folio-egs {
+    width: 550px;
+    margin: 20px;
+}
+
+.folio-egs:hover {
+    border: 1px solid #E9D82F;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+
